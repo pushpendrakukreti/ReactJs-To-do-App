@@ -70,7 +70,10 @@ span {
     background: rgba(0,0,0,0.5);
   }
   .todos-container-parent{
-    width: 70% !important;
+    width: 100% !important;
+  }
+  .todos-container-child{
+    border-radius: 0px !important;
   }
 }
 
