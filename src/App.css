@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+.navbar {
+  background-color: darkcyan;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-bottom: 1px solid white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer {
+  background-color: darkcyan;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-top: 1px solid white;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  width: 100%;
+  min-height: 80vh;
+  background-color: darkcyan;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: relative;
+}
+
+.todos-container-parent{
+  width: 40%;
+}
+
+.todos-container-child{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   color: white;
+  width: 100%;
+  height: 50px;
+  background-color: chocolate;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+span {
+  color: lightcoral;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.total {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  font-size: 24px;
+  color: white;
+  margin-right: 50px;
+  font-weight: bold;
+}
+
+.input-container {
+  margin-top: 2%;
+}
+
+input {
+  padding: 5px;
+  font-size: 25px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 5px;
+  color: white;
+  background-color: coral;
+  font-size: 25px;
+  border-radius: 5px;
+  width: 100px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.eIcon{
+  font-size: 30px;
+  margin-left: 10px;
+  padding-right: 10px;
+}
+
+.dIcon{
+  font-size: 30px;
+  padding-top: 5px;
+}
+
+.todo-text{
+  margin-left:10px;
+  font-size: 30px;
+}
+
+.save-button{
+  font-size: 25px;
+}
+
+.text-edit{
+  font-size: 25px;
+}
+
+.edit-div{
+  width: 100%;
+  text-align: center;
 }
