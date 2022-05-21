@@ -62,6 +62,18 @@ span {
   font-weight: bold;
 }
 
+@media screen and (max-width:700px){
+  .total{
+    top:75vh;
+    left: 10vw;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+  }
+  .todos-container-parent{
+    width: 70% !important;
+  }
+}
+
 .input-container {
   margin-top: 2%;
 }
